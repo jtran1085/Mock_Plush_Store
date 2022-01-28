@@ -1,0 +1,287 @@
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Dosis:700" rel="stylesheet">
+<title>Plush Store | About</title>
+<link rel="shortcut icon" href="assets/images/cat.gif">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/themekid-popup.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  popUp(true); 
+});
+</script>
+<style type="text/css">
+::-webkit-scrollbar {background-color:black; border:2px solid #fff;height:5px; width:5px;}
+::-webkit-scrollbar-thumb:vertical {background-color:black; border:1px solid #fff; height:40px;}
+body {
+  padding: 0%;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Dosis','Roboto Condensed', 'Roboto', 'Open Sans', sans-serif;
+  background: url('assets/images/tumblr_novhnrwKja1ru3nbdo3_400.png')
+}
+.popup_block {
+    padding: 30px;
+	height: 500px;
+    font-size: 16px;
+    color:#5e3e21; background:url('assets/images/tumblr_nd1o9l6kcq1ru3nbdo4_250.png');
+	box-shadow: 0px 4px 4px #cfc4ae;
+    border: 1px solid #eaeaea;
+	border-radius:20px;
+    /*don’t change anything below here*/
+    display: none;
+    position: fixed;
+    top: 50%; left: 50%;
+    z-index: 99999999;
+    max-height:300px;
+    overflow:auto;
+    -webkit-animation: zoom 0.5s;
+    -moz-animation: zoom 0.5s;
+    -ms-animation: zoom 0.5s;
+    -o-animation: zoom 0.5s;
+    animation: zoom 0.5s;
+}
+.popup_block img{
+	margin-top: 50px;
+}
+.popup_block h3{
+	color:#f24c43;
+}
+*html .popup_block {
+    position: absolute;
+}
+@-webkit-keyframes zoom {0% {transform: scale(0);-webkit-transform: scale(0);}100% {transform: scale(1.0);-webkit-transform: scale(1.0);}}@-moz-keyframes zoom {0% {transform: scale(0);-moz-transform: scale(0);}100% {transform: scale(1.0);-moz-transform: scale(1.0);}}@keyframes zoom {0% {transform: scale(0);}100% {transform: scale(1.0);}}
+#fade {
+    background: #FFF; /*change the colour of the fade layer*/
+    background-image: url(''); /*change the background if you want*/
+    opacity: .80; /*set the opacity*/
+    /*dont change below here*/
+    display: none;
+    position: fixed; left: 0; top: 0;
+    width: 100%; height: 100%;
+    z-index: 9999;
+}
+*html #fade {
+   position: absolute;
+}
+@keyframes out{
+  0%{
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+  30%{
+    letter-spacing: 5px;
+    opacity: 1;
+  }
+  100%{
+    letter-spacing: 5px;
+    opacity: 1;
+  }
+}
+@keyframes in{
+  0%{
+    letter-spacing: 5px;
+    opacity: 1;
+  }
+  30%{
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+  100%{
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+}
+#cart{
+	width: 1000px;
+	height: 20px;
+	margin: 0 auto;
+	background-color:#fae7dc;
+	border-radius: 0px 0px 20px 20px;
+}
+#sigh{
+	margin-left: 900px;
+	letter-spacing: 2px;
+}
+#sigh{
+	margin-left: 900px;
+	letter-spacing: 2px;
+}
+#sigh a{
+	text-decoration:none;
+	color:#5e3e21;
+}
+#sigh a:hover{
+	color:#DFB38B;
+}
+#header{
+	margin:0 auto;
+}
+#navs {
+	width: 1000px;
+	height: 40px;
+   background-color: #fae7dc;
+	margin: 0 auto;
+}
+#navs a {
+    width: 100px;
+    float: left;
+	border-left: 20px solid #b6ddf4;
+	padding: 3px 20px;
+	background:url('assets/images/tumblr_inline_n7qp79hnZE1rnjuep.png');
+	margin-left: 70px;
+	box-shadow: 0px 4px 2px gray;
+	border-radius: 0px 20px 0px 20px;
+	  animation: in .5s ease-in forwards;
+    color: #196694;
+    text-decoration: none;
+}
+#navs a:hover {
+	background-color: #b6ddf4;
+	border-left: 20px solid #a6ddb9;
+	  animation: out .5s ease-in forwards;
+  color: #6ba87d;
+  text-decoration: none;
+}
+	.separate{
+		margin: 0 auto;
+	width: 1000px;
+	height:30px;
+	margin: 0 auto;
+	border-top: 3px dashed #cfc4ae;
+	border-bottom: 3px dashed #cfc4ae;
+	box-shadow: 0px 4px 4px #cfc4ae;
+	background:url('assets/images/tumblr_inline_n7qp79hnZE1rnjuep.png');
+}
+#headerone {
+    padding: 0;
+    margin: 0;
+	text-align: left;
+	box-shadow: 0px 4px 4px #cfc4ae;
+	border-left: 40px solid #b6ddf4;
+	background:url('assets/images/tumblr_inline_n7qp79hnZE1rnjuep.png');
+	width:200px;
+	padding: 0px 4px 0px 16px;
+	color: #196694;
+	border-radius: 0px 20px 20px 0px;
+	letter-spacing: 4px;
+	margin-top: -5px;
+    margin-left: -50px;
+	position: relative;
+	font-size: 22px;
+}
+#main {
+	height: 450px;
+	width: 1000px;
+	background:url('assets/images/tumblr_inline_n7qp79hnZE1rnjuep.png');
+	margin: 0 auto;
+	box-shadow: 0px 4px 4px #cfc4ae;
+}
+#modone {
+	height: 430px;
+	width: 680px;
+	text-align: left;
+	background-color: #b6ddf4;
+	float: left;
+	line-height: 40px;
+	margin-top: 5px;
+	margin-left: 5px;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: 0px 0px 3px 2px #fae7dc;
+	padding: 5px;
+	color: #196694;
+}
+#modtwo {
+	height: 430px;
+	width: 290px;
+	background-color: #d4e8c3;
+	float: right;
+	margin-top: 7.5px;
+	margin-right: 5px;
+	border-radius: 20px;
+	padding: 2.5px 0px 5px 0px;
+	box-shadow: 0px 0px 3px 2px #fae7dc;
+}
+#modtwo img{
+	margin-top: 100px;
+}
+#footer {
+	background-color: #0FF;
+	width: 1000px;
+	height: 200px;
+	margin: 0 auto;
+	border-radius: 0px 0px 20px 20px;
+	background-color: #fae7dc;
+	box-shadow: 0px 4px 4px #cfc4ae;
+}
+.breadcrumbs{
+	text-align: center;
+	margin-left: 135px;
+	float: left;
+	color:#5e3e21;
+	padding:10px 0px 0px 10px;
+}
+
+a{
+	text-decoration: none;
+	color:#5e3e21;
+}
+a:hover{
+	color:#DFB38B;	
+}
+</style>
+</head>
+<body>
+<div id="cart">
+	<div id="sigh"><a href="#?w=500" rel="popup" class="poplight">Cart   <img src="assets/images/if_cart_83248.png"  height="16" alt="Cart"/></a></div>
+	</div>
+<div id="header">
+	<img src="assets/images/banner.png" width="1000" height="200" alt="Plush Store"/>
+	
+</div>	
+<div id="navs">
+    <div class="sub"><a href="index.html">Home</a></div>
+    <div class="sub"><a href="plushies.html">Plushies</a></div>
+    <div class="sub"><a href="about.html">About</a></div>
+    <div class="sub"><a href="contact.html">Contact</a></div>
+</div>
+<div class = "separate"></div>
+<div id="main">
+	
+  <div id="modone">
+	  <div id= "headerone">About</div>
+
+    Plushie Store is a lifestyle brand based within loveliness of Westminster, California. Founded and owned by Jason Tran, we started as a small local store. We then moved onto opening our first online store at Etsy in 2015 and decided to launch our company into the world starting now! The merchandise we have right now is all we can do, for now. However, as time goes on, we're sure to increase the variable amount of plushies than we do now.
+Our founder, Jason Tran, is just a student in Mr. Ruzzi's 3rd period class with only months of experience in hand. However, what he does have is a lifetime of experience in knowing what kind of plushy strikes the heart of a person. As a senior at La Quinta High School, he accidentally was struck with the disease of senioritis and during his time off from school work, he decided to make these adorable babies on the side! He is now hoping to continue this work even after he probably gets rejected from UCI.
+
+
+  </div>
+  <div id="modtwo"><img src="assets/images/catdown.gif"  height="200" alt="Animated Cat GIF"/></div>
+  
+</div>
+<div class = "separate"></div>
+<div id="footer">
+<div class="breadcrumbs">
+	<h3>STORE</h3><br>
+	
+© 2018 Plush Store, LLC
+</div>
+<div class="breadcrumbs">
+  <img src="assets/images/cat.gif"  height="100" alt="Animated Cat GIF"/> </div>
+<div class="breadcrumbs">
+	<h3><strong>INFO</strong></h3><br>
+	<a href="index.html">Home</a><br>
+	<a href="plushies.html">Plushies</a><br>
+	<a href="about.html">About</a><br>
+	<a href="contact.html">Contact Us!</a>
+</div>
+
+</div>
+<div id="popup" class="popup_block">
+	<div id="maintenance">
+	<h3>THE SHOPPING CART IS UNDER MAINTENANCE AS IT IS CURRENTLY BROKEN.</h3>
+	Expect it to be done probably when im not lazy enough to do it. Thank you!
+	</div>
+<img src="assets/images/sadcat.gif" height="130" alt="Crying Cat GIF"/> </div>
+</body>
+</html>
